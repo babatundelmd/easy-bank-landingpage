@@ -5,27 +5,31 @@
 }
 
 body{
-    line-height: 1.6;
+    line-height: 1.4;
     font-size: 18px;
+    font-family: 'Public Sans', sans-serif;
 }
 
 .container {
-    max-width: 1100px;
     padding: 0 30px;
     margin: 0 auto;
     overflow: auto;
+    position: relative;
+    z-index: 999;
+    max-width: 1100px;
 }
 
 nav {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     padding: 30px 0 0;
-
+    width: 1000px;
 }
 nav div ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 25px;
     cursor: pointer;
     padding-bottom: 20px;
 }
@@ -38,11 +42,14 @@ nav div ul li:hover {
 button {
     outline: none;
     border-radius: 80px;
+    color: white;
+    font-size: 18px;
     width: 200px;
-    padding:20px;
+    padding: 14px 20px;
     border: none;
     cursor: pointer;
     margin-top: -10px;
+    background-image: linear-gradient(to right top, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
 
 }
 
@@ -50,4 +57,49 @@ header {
     width: 100%;
     background-color: hsl(0, 0%, 98%);
     margin-top: 3px;
+    z-index: 200;
+    /* top: -10px; */
+
+}
+
+.contain{
+    max-width: 1100px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: flex;
+    height: 500px;
+    margin-top: 80px;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.contain .contain-details{
+    width: 100%;
+    margin-top: 80px;
+}
+
+
+.contain .contain-details h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    background-image: linear-gradient(to right top, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+}
+
+
+.contain-img {
+    background-image: url('./images/bg-intro-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: -200px;
+    margin-right: -150px;
+    margin-bottom: -60px;
 }
