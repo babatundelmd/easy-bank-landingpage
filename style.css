@@ -75,7 +75,7 @@ header {
     width: 100%;
     background-color: hsl(0, 0%, 98%);
     margin-top: 3px;
-    height: 600px;
+    height: 650px;
     /* top: -10px; */
 }
 
@@ -128,9 +128,9 @@ header {
     background-repeat: no-repeat;
     margin-left: 500px;
     width: 100%;
-    height: calc(100% + 45px);
+    height: 100%;
     background-position: right;
-    top: 35px;
+    top: 40px;
 }
 
 /* .contain-img .mobile {
