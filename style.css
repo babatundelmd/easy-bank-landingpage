@@ -257,3 +257,13 @@ footer .section {
 .footer-flex div button{
     margin-left: 30px;
 }
+#svg{
+    display: flex;
+    padding: 20px 20px 20px 0;
+
+}
+
+#svg div{
+    margin-right: 10px;
+    margin-top: 10px;
+}
