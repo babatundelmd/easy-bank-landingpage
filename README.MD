@@ -5,3 +5,5 @@ This is a frontend challenge from [Frontend Mentor](https://www.frontendmentor.i
 ## Live View
 
 Follow the project live here on [Easy Page Landing Page](https://easy-bank-landing-page.now.sh/)
+
+> This project is not responsive yet :)
